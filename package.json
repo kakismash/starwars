@@ -6,8 +6,10 @@
     "scripts": {
         "build": "tsc",
         "dev": "ts-node ./src/server.ts",
+        "postinstall": "tsc",
         "start": "nodemon ./dist/server.js",
-        "prod": "npm run build && npm run start"
+        "prod": "npm run build && npm run start",
+        "deploy": "git add . && git commit -m Heroku && git push heroku master"
     },
     "repository": {
         "type": "git",
