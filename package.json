@@ -4,11 +4,10 @@
     "description": "Star War Application for Matt and Dane",
     "main": "index.js",
     "scripts": {
-        "build": "tsc",
         "dev": "ts-node ./src/server.ts",
         "postinstall": "tsc",
         "start": "nodemon ./dist/server.js",
-        "prod": "npm run build && npm run start",
+        "prod": "npm run start",
         "deploy": "git add . && git commit -m Heroku && git push heroku master"
     },
     "repository": {
