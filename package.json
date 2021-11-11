@@ -1,0 +1,31 @@
+{
+    "name": "starwars",
+    "version": "1.0.0",
+    "description": "Star War Application for Matt and Dane",
+    "main": "index.js",
+    "scripts": {
+        "build": "tsc",
+        "dev": "ts-node ./src/server.ts",
+        "start": "nodemon ./dist/server.js",
+        "prod": "npm run build && npm run start"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kakismash/starwars.git"
+    },
+    "keywords": [
+        "starwars"
+    ],
+    "author": "Joaquin Navarro",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/kakismash/starwars/issues"
+    },
+    "homepage": "https://github.com/kakismash/starwars#readme",
+    "dependencies": {
+        "@types/express": "^4.17.13",
+        "body-parser": "^1.19.0",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.15"
+    }
+}
