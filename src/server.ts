@@ -5,7 +5,7 @@ import { StarWarController } from "./controller/starWar.controller";
 
 class StarWarServer {
     app: express.Application = express();
-    PORT: number = 8000;
+    PORT = process.env.PORT || 8000;
     
     config(): void {
     
