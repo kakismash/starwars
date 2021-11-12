@@ -1,14 +1,21 @@
 
 import express, {Request, Response} from "express";
-import StarWarController from "./controller/starWarController";
+import path from "path";
+import { StarWarController } from "./controller/starWar.controller";
 
 class StarWarServer {
     app: express.Application = express();
     PORT: number = 8000;
     
     config(): void {
+    
+        const dir = path.join(__dirname, 'static');
+        this.app.use(express.static(dir));
+    
+    
         this.bodyParser();
         this.routes();
+        
     }
 
     start(): void {

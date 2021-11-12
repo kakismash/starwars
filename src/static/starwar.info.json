@@ -1,0 +1,544 @@
+{
+    "general": "Star Wars is an American epic space opera[1] multimedia franchise created by George Lucas, which began with the eponymous 1977 film[b] and quickly became a worldwide pop-culture phenomenon. The franchise has been expanded into various films and other media, including television series, video games, novels, comic books, theme park attractions, and themed areas, comprising an all-encompassing fictional universe.[c] In 2020, its total value was estimated at US$70 billion, and it is currently the fifth-highest-grossing media franchise of all time./n The original film (Star Wars), retroactively subtitled Episode IV: A New Hope (1977), was followed by the sequels Episode V: The Empire Strikes Back (1980) and Episode VI: Return of the Jedi (1983), forming the original Star Wars trilogy. Lucas later returned to filmmaking to direct a prequel trilogy, consisting of Episode I: The Phantom Menace (1999), Episode II: Attack of the Clones (2002), and Episode III: Revenge of the Sith (2005). In 2012, Lucas sold his production company to Disney, relinquishing his ownership of the franchise. The subsequently produced sequel trilogy consists of Episode VII: The Force Awakens (2015), Episode VIII: The Last Jedi (2017), and Episode IX: The Rise of Skywalker (2019)./n All nine films of the '/n Skywalker saga ' were nominated for Academy Awards, with wins going to the first two releases. Together with the theatrical live action '/n anthology ' films Rogue One (2016) and Solo (2018), the combined box office revenue of the films equated to over US$10 billion, which makes it the second-highest-grossing film franchise of all time.[3][4] An additional film, Rogue Squadron, is planned for release in late 2023. A number of other films, including an independent trilogy, are suggested to be in development.",
+    "planets": [{
+            "name": "Tatooine",
+            "rotation_period": "23",
+            "orbital_period": "304",
+            "diameter": "10465",
+            "climate": "arid",
+            "gravity": "1 standard",
+            "terrain": "desert",
+            "surface_water": "1",
+            "population": "200000",
+            "image": "images/tatooine.jpg",
+            "residents": [
+                "1",
+                "2",
+                "4",
+                "6",
+                "7",
+                "8",
+                "9",
+                "11",
+                "43",
+                "62"
+            ],
+            "films": [
+                "1",
+                "3",
+                "4",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "name": "Alderaan",
+            "rotation_period": "24",
+            "orbital_period": "364",
+            "diameter": "12500",
+            "climate": "temperate",
+            "gravity": "1 standard",
+            "terrain": "grasslands, mountains",
+            "surface_water": "40",
+            "population": "2000000000",
+            "image": "images/alderaan.jpg",
+            "residents": [
+                "5",
+                "68",
+                "81"
+            ],
+            "films": [
+                "1",
+                "6"
+            ]
+        },
+        {
+            "name": "Yavin IV",
+            "rotation_period": "24",
+            "orbital_period": "4818",
+            "diameter": "10200",
+            "climate": "temperate, tropical",
+            "gravity": "1 standard",
+            "terrain": "jungle, rainforests",
+            "surface_water": "8",
+            "population": "1000",
+            "image": "images/yavin4.jpg",
+            "residents": [],
+            "films": [
+                "1"
+            ]
+        },
+        {
+            "name": "Hoth",
+            "rotation_period": "23",
+            "orbital_period": "549",
+            "diameter": "7200",
+            "climate": "frozen",
+            "gravity": "1.1 standard",
+            "terrain": "tundra, ice caves, mountain ranges",
+            "surface_water": "100",
+            "population": "unknown",
+            "image": "images/hoth.jpg",
+            "residents": [],
+            "films": [
+                "2"
+            ]
+        },
+        {
+            "name": "Dagobah",
+            "rotation_period": "23",
+            "orbital_period": "341",
+            "diameter": "8900",
+            "climate": "murky",
+            "gravity": "N/A",
+            "terrain": "swamp, jungles",
+            "surface_water": "8",
+            "population": "unknown",
+            "image": "images/dagobah.jpeg",
+            "residents": [],
+            "films": [
+                "2",
+                "3",
+                "6"
+            ]
+        },
+        {
+            "name": "Bespin",
+            "rotation_period": "12",
+            "orbital_period": "5110",
+            "diameter": "118000",
+            "climate": "temperate",
+            "gravity": "1.5 (surface), 1 standard (Cloud City)",
+            "terrain": "gas giant",
+            "surface_water": "0",
+            "population": "6000000",
+            "image": "images/bespin.jpg",
+            "residents": [
+                "26"
+            ],
+            "films": [
+                "2"
+            ]
+        },
+        {
+            "name": "Endor",
+            "rotation_period": "18",
+            "orbital_period": "402",
+            "diameter": "4900",
+            "climate": "temperate",
+            "gravity": "0.85 standard",
+            "terrain": "forests, mountains, lakes",
+            "surface_water": "8",
+            "population": "30000000",
+            "image": "images/endor.jpg",
+            "residents": [
+                "30"
+            ],
+            "films": [
+                "3"
+            ]
+        },
+        {
+            "name": "Naboo",
+            "rotation_period": "26",
+            "orbital_period": "312",
+            "diameter": "12120",
+            "climate": "temperate",
+            "gravity": "1 standard",
+            "terrain": "grassy hills, swamps, forests, mountains",
+            "surface_water": "12",
+            "population": "4500000000",
+            "image": "images/naboo.jpg",
+            "residents": [
+                "3",
+                "21",
+                "35",
+                "36",
+                "37",
+                "38",
+                "39",
+                "42",
+                "60",
+                "61",
+                "66"
+            ],
+            "films": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "name": "Coruscant",
+            "rotation_period": "24",
+            "orbital_period": "368",
+            "diameter": "12240",
+            "climate": "temperate",
+            "gravity": "1 standard",
+            "terrain": "cityscape, mountains",
+            "surface_water": "unknown",
+            "population": "1000000000000",
+            "image": "images/coruscant.jpg",
+            "residents": [
+                "34",
+                "55",
+                "74"
+            ],
+            "films": [
+                "3",
+                "4",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "name": "Kamino",
+            "rotation_period": "27",
+            "orbital_period": "463",
+            "diameter": "19720",
+            "climate": "temperate",
+            "gravity": "1 standard",
+            "terrain": "ocean",
+            "surface_water": "100",
+            "population": "1000000000",
+            "image": "images/kamino.jpg",
+            "residents": [
+                "22",
+                "72",
+                "73"
+            ],
+            "films": [
+                "5"
+            ]
+        }
+    ],
+    "people": [{
+            "name": "Luke Skywalker",
+            "height": "172",
+            "mass": "77",
+            "hair_color": "blond",
+            "skin_color": "fair",
+            "eye_color": "blue",
+            "birth_year": "19BBY",
+            "gender": "male",
+            "image": "images/luke_skywalker.jpg",
+            "homeworld": "1",
+            "films": [
+                "1",
+                "2",
+                "3",
+                "6"
+            ]
+        },
+        {
+            "name": "C-3PO",
+            "height": "167",
+            "mass": "75",
+            "hair_color": "n/a",
+            "skin_color": "gold",
+            "eye_color": "yellow",
+            "birth_year": "112BBY",
+            "gender": "n/a",
+            "image": "images/C-3PO.jpg",
+            "homeworld": "1",
+            "films": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "name": "R2-D2",
+            "height": "96",
+            "mass": "32",
+            "hair_color": "n/a",
+            "skin_color": "white, blue",
+            "eye_color": "red",
+            "birth_year": "33BBY",
+            "gender": "n/a",
+            "image": "images/R2-D2.jpg",
+            "homeworld": "8",
+            "films": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "name": "Darth Vader",
+            "height": "202",
+            "mass": "136",
+            "hair_color": "none",
+            "skin_color": "white",
+            "eye_color": "yellow",
+            "birth_year": "41.9BBY",
+            "gender": "male",
+            "image": "images/darth_vader.jpg",
+            "homeworld": "1",
+            "films": [
+                "1",
+                "2",
+                "3",
+                "6"
+            ]
+        },
+        {
+            "name": "Leia Organa",
+            "height": "150",
+            "mass": "49",
+            "hair_color": "brown",
+            "skin_color": "light",
+            "eye_color": "brown",
+            "birth_year": "19BBY",
+            "gender": "female",
+            "image": "images/leia_organa.jpg",
+            "homeworld": "2",
+            "films": [
+                "1",
+                "2",
+                "3",
+                "6"
+            ]
+        },
+        {
+            "name": "Owen Lars",
+            "height": "178",
+            "mass": "120",
+            "hair_color": "brown, grey",
+            "skin_color": "light",
+            "eye_color": "blue",
+            "birth_year": "52BBY",
+            "gender": "male",
+            "image": "images/owen_lars.jpg",
+            "homeworld": "1",
+            "films": [
+                "1",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "name": "Beru Whitesun lars",
+            "height": "165",
+            "mass": "75",
+            "hair_color": "brown",
+            "skin_color": "light",
+            "eye_color": "blue",
+            "birth_year": "47BBY",
+            "gender": "female",
+            "image": "images/beru_whitesun_lars.jpg",
+            "homeworld": "1",
+            "films": [
+                "1",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "name": "R5-D4",
+            "height": "97",
+            "mass": "32",
+            "hair_color": "n/a",
+            "skin_color": "white, red",
+            "eye_color": "red",
+            "birth_year": "unknown",
+            "gender": "n/a",
+            "image": "images/R5-D4.jpg",
+            "homeworld": "1",
+            "films": [
+                "1"
+            ]
+        },
+        {
+            "name": "Biggs Darklighter",
+            "height": "183",
+            "mass": "84",
+            "hair_color": "black",
+            "skin_color": "light",
+            "eye_color": "brown",
+            "birth_year": "24BBY",
+            "gender": "male",
+            "image": "images/biggs_darklighter.jpg",
+            "homeworld": "1",
+            "films": [
+                "1"
+            ]
+        },
+        {
+            "name": "Obi-Wan Kenobi",
+            "height": "182",
+            "mass": "77",
+            "hair_color": "auburn, white",
+            "skin_color": "fair",
+            "eye_color": "blue-gray",
+            "birth_year": "57BBY",
+            "gender": "male",
+            "image": "images/Obi-Wan-Kenobi.jpg",
+            "homeworld": "2",
+            "films": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+            ]
+        }
+
+
+    ],
+    "films": [{
+            "title": "A New Hope",
+            "episode_id": 4,
+            "opening_crawl": "It is a period of civil war.\r\nRebel spaceships, striking\r\nfrom a hidden base, have won\r\ntheir first victory against\r\nthe evil Galactic Empire.\r\n\r\nDuring the battle, Rebel\r\nspies managed to steal secret\r\nplans to the Empire's\r\nultimate weapon, the DEATH\r\nSTAR, an armored space\r\nstation with enough power\r\nto destroy an entire planet.\r\n\r\nPursued by the Empire's\r\nsinister agents, Princess\r\nLeia races home aboard her\r\nstarship, custodian of the\r\nstolen plans that can save her\r\npeople and restore\r\nfreedom to the galaxy....",
+            "director": "George Lucas",
+            "image": "images/a_new_hope.jpg",
+            "producer": "Gary Kurtz, Rick McCallum",
+            "release_date": "1977-05-25",
+            "characters": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "12",
+                "13",
+                "14",
+                "15",
+                "16",
+                "18",
+                "19",
+                "81"
+            ],
+            "planets": [
+                "1",
+                "2",
+                "3"
+            ]
+        },
+        {
+            "title": "The Empire Strikes Back",
+            "episode_id": 5,
+            "opening_crawl": "It is a dark time for the\r\nRebellion. Although the Death\r\nStar has been destroyed,\r\nImperial troops have driven the\r\nRebel forces from their hidden\r\nbase and pursued them across\r\nthe galaxy.\r\n\r\nEvading the dreaded Imperial\r\nStarfleet, a group of freedom\r\nfighters led by Luke Skywalker\r\nhas established a new secret\r\nbase on the remote ice world\r\nof Hoth.\r\n\r\nThe evil lord Darth Vader,\r\nobsessed with finding young\r\nSkywalker, has dispatched\r\nthousands of remote probes into\r\nthe far reaches of space....",
+            "director": "Irvin Kershner",
+            "image": "images/Empire_strikes_back_old.jpg",
+            "producer": "Gary Kurtz, Rick McCallum",
+            "release_date": "1980-05-17",
+            "characters": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "10"
+            ],
+            "planets": [
+                "4",
+                "5",
+                "6"
+            ]
+        },
+        {
+            "title": "Return of the Jedi",
+            "episode_id": 6,
+            "opening_crawl": "Luke Skywalker has returned to\r\nhis home planet of Tatooine in\r\nan attempt to rescue his\r\nfriend Han Solo from the\r\nclutches of the vile gangster\r\nJabba the Hutt.\r\n\r\nLittle does Luke know that the\r\nGALACTIC EMPIRE has secretly\r\nbegun construction on a new\r\narmored space station even\r\nmore powerful than the first\r\ndreaded Death Star.\r\n\r\nWhen completed, this ultimate\r\nweapon will spell certain doom\r\nfor the small band of rebels\r\nstruggling to restore freedom\r\nto the galaxy...",
+            "director": "Richard Marquand",
+            "image": "images/Return_of_the_Jedi.jpg",
+            "producer": "Howard G. Kazanjian, George Lucas, Rick McCallum",
+            "release_date": "1983-05-25",
+            "characters": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "10"
+            ],
+            "planets": [
+                "1",
+                "5",
+                "7",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "title": "The Phantom Menace",
+            "episode_id": 1,
+            "opening_crawl": "Turmoil has engulfed the\r\nGalactic Republic. The taxation\r\nof trade routes to outlying star\r\nsystems is in dispute.\r\n\r\nHoping to resolve the matter\r\nwith a blockade of deadly\r\nbattleships, the greedy Trade\r\nFederation has stopped all\r\nshipping to the small planet\r\nof Naboo.\r\n\r\nWhile the Congress of the\r\nRepublic endlessly debates\r\nthis alarming chain of events,\r\nthe Supreme Chancellor has\r\nsecretly dispatched two Jedi\r\nKnights, the guardians of\r\npeace and justice in the\r\ngalaxy, to settle the conflict....",
+            "director": "George Lucas",
+            "image": "images/The_Phantom_Menace.jpg",
+            "producer": "Rick McCallum",
+            "release_date": "1999-05-19",
+            "characters": [
+                "2",
+                "3",
+                "10"
+            ],
+            "planets": [
+                "1",
+                "8",
+                "9"
+            ]
+        },
+        {
+            "title": "Attack of the Clones",
+            "episode_id": 2,
+            "opening_crawl": "There is unrest in the Galactic\r\nSenate. Several thousand solar\r\nsystems have declared their\r\nintentions to leave the Republic.\r\n\r\nThis separatist movement,\r\nunder the leadership of the\r\nmysterious Count Dooku, has\r\nmade it difficult for the limited\r\nnumber of Jedi Knights to maintain \r\npeace and order in the galaxy.\r\n\r\nSenator Amidala, the former\r\nQueen of Naboo, is returning\r\nto the Galactic Senate to vote\r\non the critical issue of creating\r\nan ARMY OF THE REPUBLIC\r\nto assist the overwhelmed\r\nJedi....",
+            "director": "George Lucas",
+            "image": "images/Attack_of_the_Clones.jpg",
+            "producer": "Rick McCallum",
+            "release_date": "2002-05-16",
+            "characters": [
+                "2",
+                "3",
+                "6",
+                "7",
+                "10"
+            ],
+            "planets": [
+                "1",
+                "8"
+            ]
+        },
+        {
+            "title": "Revenge of the Sith",
+            "episode_id": 3,
+            "opening_crawl": "War! The Republic is crumbling\r\nunder attacks by the ruthless\r\nSith Lord, Count Dooku.\r\nThere are heroes on both sides.\r\nEvil is everywhere.\r\n\r\nIn a stunning move, the\r\nfiendish droid leader, General\r\nGrievous, has swept into the\r\nRepublic capital and kidnapped\r\nChancellor Palpatine, leader of\r\nthe Galactic Senate.\r\n\r\nAs the Separatist Droid Army\r\nattempts to flee the besieged\r\ncapital with their valuable\r\nhostage, two Jedi Knights lead a\r\ndesperate mission to rescue the\r\ncaptive Chancellor....",
+            "director": "George Lucas",
+            "image": "images/Revenge_of_the_Sith.jpg",
+            "producer": "Rick McCallum",
+            "release_date": "2005-05-19",
+            "characters": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6",
+                "7",
+                "10"
+            ],
+            "planets": [
+                "1",
+                "2",
+                "5",
+                "8",
+                "9",
+                "10"
+            ]
+        }
+    ]
+}
