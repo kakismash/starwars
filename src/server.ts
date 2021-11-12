@@ -33,7 +33,7 @@ class StarWarServer {
     }
 
     private routes(): void {
-        this.app.use('/starwar', StarWarController.getRouter());
+        this.app.use('/getMyStarWarsCollection', StarWarController.getRouter());
     }
 
 }
