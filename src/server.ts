@@ -3,6 +3,8 @@ import express, {Request, Response} from "express";
 import path from "path";
 import { StarWarController } from "./controller/starWar.controller";
 
+let cors = require('cors')
+
 class StarWarServer {
     app: express.Application = express();
     PORT = process.env.PORT || 8000;
@@ -11,7 +13,7 @@ class StarWarServer {
     
         const dir = path.join(__dirname, 'static');
         this.app.use(express.static(dir));
-    
+        this.app.use(cors())
     
         this.bodyParser();
         this.routes();

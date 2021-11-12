@@ -1,6 +1,7 @@
 import express, { Request, Response, Router } from 'express';
 import { StarWarService } from '../service/starWar.service';
 
+let cors = require('cors')
 export class StarWarController {
     router: express.Router;
 
@@ -22,7 +23,7 @@ export class StarWarController {
 
     private mainArticle(): void {
         
-        this.router.get('/', async (req: Request, res: Response) => {
+        this.router.get('/', cors(), async (req: Request, res: Response) => {
             res.status(200).json( this.starWarService.list(''));
         });
 
@@ -30,7 +31,7 @@ export class StarWarController {
 
     private list(): void {
         
-        this.router.get('/:list', async (req: Request, res: Response) => {
+        this.router.get('/:list', cors(), async (req: Request, res: Response) => {
         
             const user = req.header('current-user');
 
@@ -45,7 +46,7 @@ export class StarWarController {
 
     private element(): void {
 
-        this.router.get('/:list/:id', async (req: Request, res: Response) => {
+        this.router.get('/:list/:id', cors(), async (req: Request, res: Response) => {
         
             const user = req.header('current-user');
 
