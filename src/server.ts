@@ -12,9 +12,8 @@ class StarWarServer {
     config(): void {
     
         const dir = path.join(__dirname, 'static');
-        this.app.use(express.static(dir));
         this.app.use(cors())
-    
+        this.app.use(express.static(dir));
         this.bodyParser();
         this.routes();
         
