@@ -2,7 +2,7 @@ import  *  as jsonFile  from '../static/starwar.info.json';
 
 export class StarWarService {
     
-    list(object: string): Array<any> | string {
+    list(object: string): Array<any> {
         
         switch (object) {
             case 'planets':
@@ -12,7 +12,7 @@ export class StarWarService {
             case 'people':
                 return jsonFile.people;
             default:
-                return jsonFile.general;
+                return jsonFile.crawls;
         }
     }
 
@@ -26,7 +26,7 @@ export class StarWarService {
             case 'people':
                 return jsonFile.people[id - 1];
             default:
-                return jsonFile.general;
+                return jsonFile.crawls;
         }
     }
 
